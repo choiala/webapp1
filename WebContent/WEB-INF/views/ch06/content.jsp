@@ -24,37 +24,25 @@
 				
 				<div class="content">
 					<div class="sector">
-						<h5>GET 방식 데이터 전달</h5>
+						<h5>포워드 테스트</h5>
 						<div>
-							<a class="btn- btn-info btn-sm" href="method4?param1=문자열&param2=5&param3=3.14&param4=true&param5=2021-01-14">데이터 전달</a>
+							<a class="btn- btn-info btn-sm" href="forward">서버 내부에서 이동</a>
 						</div>
 					</div>
 					
 					<div class="sector">
-						<h5>POST 방식 데이터 전달</h5>
+						<h5>리다이렉트 테스트</h5>
 						<div>
-							<form method="post" action="method2">
-								<input type="text" name="param1" value="문자열"/><br/>
-								<input type="number" name="param2" value="5"/><br/>
-								<input type="number" name="param3" value="3.14"/><br/>
-								<input type="checkbox" name="param4" checked/><br/>
-								<input type="date" name="param5" value="2021-12-25"/><br/>
-								<button class="btn btn-info btn-sm">데이터 전달</button>
-							</form>
+							<a class="btn- btn-info btn-sm" 
+								href="redirect">브라우저 재요청</a>
+							<br/><br/>
+							<a class="btn- btn-info btn-sm" 
+								href="login">로그인하기</a>
+								<br/><br/>
+							<a class="btn- btn-info btn-sm" 
+								href="boardWrite">게시물 저장</a>
 						</div>
 					</div>
-					
-					<div class="sector">
-						<h5>디폴트 값</h5>
-						<div>
-							<form method="post" action="method3">
-								<input type="text" name="param1" value="wannagohome"/><br/>
-								<input type="text" name="param2" value="100"/><br/>
-								<button class="btn btn-info btn-sm">데이터 전달</button>
-							</form>
-						</div>
-					</div>
-					
 				</div>
 			</div>
 		</div>
